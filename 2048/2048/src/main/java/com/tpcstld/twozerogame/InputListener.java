@@ -137,7 +137,10 @@ class InputListener implements View.OnTouchListener {
                         //blah
                         //blah
                         //blah
-                        //blah//blah
+                        //blah
+                        //blah
+                        //blah
+                        //blah
                         mView.game.revertUndoState();
                         throw new RuntimeException("Check out more buddybuild Crash Reporting!");
                     } else if (isTap(2) && inRange(mView.startingX, x, mView.endingX)
